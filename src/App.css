@@ -68,6 +68,12 @@ button {
   margin-bottom: 1rem;
 }
 
+button:focus,
+button:hover {
+  background-color: rgb(181, 29, 128);
+  transform: scale(1.05);
+}
+
 input {
   border: none;
   border-bottom: 2px solid rgb(181, 29, 128);
@@ -88,4 +94,20 @@ form {
   border: 2px solid rgb(181, 29, 128);
   width: 300px;
   margin: 0 auto;
+}
+
+.btn-delete {
+  padding: 2px 5px;
+  border-radius: 2px;
+  display: inline;
+}
+
+.movie-list {
+  display: inline;
+  margin: 0;
+  margin-right: 15px;
+}
+
+.list {
+  display: block;
 }
