@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import data from "./fakeMovieService.json";
 import "./App.css";
 
@@ -42,25 +42,27 @@ export default function SearchAddDelete() {
       <div className="listBox">
         <h1>MY ORDER</h1>
         <h4> TITLE | GENRE | RATE </h4>
-        {data.map((listItem, index) => {
-          if (includeExclude.indexOf(index) !== -1)
-            return (
-              <span className="list">
-                <h4 className="movie-list" id={index}>
-                  {listItem.title} | {listItem.genre.name} | {listItem.rate}
-                </h4>
-                <button
-                  className="btn-delete"
-                  onClick={(index) =>
-                    includeExclude.indexOf(index) !== -1 &&
-                    includeExclude.delete(includeExclude.indexOf(index))
-                  }
-                >
-                  DELETE
-                </button>
-              </span>
-            );
-        })}
+        {useEffect(() => {
+          data.map((listItem, index) => {
+            if (includeExclude.indexOf(index) !== -1)
+              return (
+                <span className="list">
+                  <h4 className="movie-list" id={index}>
+                    {listItem.title} | {listItem.genre.name} | {listItem.rate}
+                  </h4>
+                  <button
+                    className="btn-delete"
+                    onClick={(index) =>
+                      includeExclude.indexOf(index) !== -1 &&
+                      includeExclude.delete(includeExclude.indexOf(index))
+                    }
+                  >
+                    DELETE
+                  </button>
+                </span>
+              );
+          });
+        }, [searchID])}
       </div>
     </main>
   );
