@@ -3,7 +3,7 @@
     "_id": "5b21ca3eeb7f6fbccd471815",
     "title": "Terminator",
     "genre": { "_id": "5b21ca3eeb7f6fbccd471818", "name": "Action" },
-    "rate": 2.5
+    "rate": 4.6
   },
   {
     "_id": "5b21ca3eeb7f6fbccd471816",
@@ -21,36 +21,36 @@
     "_id": "5b21ca3eeb7f6fbccd471819",
     "title": "Trip to Italy",
     "genre": { "_id": "5b21ca3eeb7f6fbccd471814", "name": "Comedy" },
-    "rate": 3.5
+    "rate": 5
   },
   {
     "_id": "5b21ca3eeb7f6fbccd47181a",
     "title": "Airplane",
     "genre": { "_id": "5b21ca3eeb7f6fbccd471814", "name": "Comedy" },
-    "rate": 3.5
+    "rate": 1.5
   },
   {
     "_id": "5b21ca3eeb7f6fbccd47181b",
     "title": "Wedding Crashers",
     "genre": { "_id": "5b21ca3eeb7f6fbccd471814", "name": "Comedy" },
-    "rate": 3.5
+    "rate": 2.5
   },
   {
     "_id": "5b21ca3eeb7f6fbccd47181e",
     "title": "Gone Girl",
     "genre": { "_id": "5b21ca3eeb7f6fbccd471820", "name": "Thriller" },
-    "rate": 4.5
+    "rate": 2
   },
   {
     "_id": "5b21ca3eeb7f6fbccd47181f",
     "title": "The Sixth Sense",
     "genre": { "_id": "5b21ca3eeb7f6fbccd471820", "name": "Thriller" },
-    "rate": 3.5
+    "rate": 3
   },
   {
     "_id": "5b21ca3eeb7f6fbccd471821",
     "title": "The Avengers",
     "genre": { "_id": "5b21ca3eeb7f6fbccd471818", "name": "Action" },
-    "rate": 3.5
+    "rate": 4.5
   }
 ]
